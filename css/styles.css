@@ -1,9 +1,147 @@
 body {
   width: 100%;
-  text-align: center;
+  /*background-image: url("../img/hair.jpg");*/
 }
 
-header {
+ul {
+  list-style-type: none;
+}
+
+footer {
   text-align: center;
-  color: red;
+  font-family: 'Pacifico', cursive;
+}
+
+span {
+  font-family: 'Pacifico', cursive;
+  font-size: 1.2em;
+}
+
+.about {
+  text-align: center;
+  width: 40%;
+  margin: auto;
+  border-right: solid 1px #5D6D7E;
+  border-bottom: dotted 1px red;
+  box-shadow: 10px 10px 10px 5px #EBDEF0;
+}
+
+.about h1 {
+  font-family: 'Pacifico', cursive;
+  border-top: double black;
+  border-left: double black;
+}
+
+.about p {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 1.5em;
+}
+
+.container {
+  display: flex;
+}
+
+.education {
+  text-align: center;
+  width: 40%;
+  float: right;
+  margin: auto;
+  padding: 2%;
+  border-left: dotted 1px black;
+  border-bottom: solid 1px red;
+  box-shadow: 19px -10px 10px 0px #B2BABB;
+}
+
+.education h1 {
+  font-family: 'Pacifico', cursive;
+  border-right: double black;
+  border-top: double black;
+}
+
+.education li {
+  font-family: 'Playfair Display', serif;
+}
+
+.education p {
+  font-family: 'Playfair Display', serif;
+}
+
+.hobbies {
+  width: 50%;
+  text-align: right;
+}
+
+.hobbies h1{
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  border-left: double black;
+  border-bottom: double black;
+  margin-top: 12%;
+}
+
+.hobbies li {
+  font-family: 'Anton', sans-serif;
+}
+
+.jumbotron {
+  background-color: #82E0AA;
+  text-align: center;
+  box-shadow: 5px 5px 10px black;
+  opacity: 0.7;
+}
+
+.jumbotron h1 {
+  font-size: 4em;
+  font-family: 'Arvo', serif;
+  text-shadow: 4px 3px 10px #BB8FCE;
+  border-bottom: double black;
+}
+
+.jumbotron h2 {
+  font-size: 1em;
+  font-family: 'Pacifico', cursive;
+  float: right;
+  margin-right: 2%;
+  margin-bottom: 2%;
+}
+
+.links {
+  width: 30%;
+  float: right;
+  padding: 5%;
+  margin-left: 20%;
+}
+
+.links h1 {
+  font-family: 'Pacifico', cursive;
+  border-right: double black;
+  border-bottom: double black;
+}
+
+.links li {
+  font-family: 'Anton', sans-serif;
+}
+
+/* unvisited link */
+a:link {
+    color: green;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: red;
+}
+
+/* selected link */
+a:active {
+    color: yellow;
+}
+
+.wrapper {
+  display: flex;
 }
