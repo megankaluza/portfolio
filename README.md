@@ -14,6 +14,7 @@ _This portfolio displays HTML, CSS, Bootstrap, and Google Fonts. The HTML includ
     _To clone using Git, use the following terminal command:_
     _https://github.com/megankaluza/portfolio.git_
 * _Open in text editor of your choice_
+*_Link to https://megankaluza.github.io/portfolio/
 
 ## Known Bugs
 
